@@ -4,7 +4,7 @@
 ### **[2. _GitHub_ 사용법](#2.-GitHub-사용법)**      
 &nbsp;&nbsp;[2-1) _GitHub_ 명령어](#GitHub-명령어)   
   
- ## 1. Git 사용법
+  ## 1. Git 사용법
   - ### Git 명령어   
   
     - **_Git_ 의 명령어의 사용법을 보고 싶다.**   
@@ -40,7 +40,7 @@
     - **_Local_ _.git_ 저장소의 변화된 파일의 특정 시점으로 돌아가고 싶다. ( !복구불가능 )**    
            
        <code>$git reset "일련번호6자리" or "logCommitHash" --hard</code> : 변화 된 파일의 특정 시점으로 돌아가고 싶다.   
-   
-    ## 2. GitHub 사용법
-     - ### GitHub 명령어
+ 
+  ## 2. GitHub 사용법
+  - ### GitHub 명령어
  
