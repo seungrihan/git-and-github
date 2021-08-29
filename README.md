@@ -5,7 +5,7 @@
 &nbsp;&nbsp;[GitHub 명령어](#GitHub-명령어)   
   
 ## Git 사용법   
-  - ## Git 명령어   
+  - ### Git 명령어   
   
     - **_Git_ 의 명령어의 사용법을 보고 싶다.**   
            
