@@ -32,7 +32,7 @@ $ git config -g user.email "userEmail" # 사용자 Email을 생성한다.
 ````   
 </br>
 
-> ### _1.4) Working Directory에서 Stage Area로 파일을 등록_   
+> ### _1.4) Working Directory에서 Staging Area로 파일을 등록_   
 
 </br>
    
