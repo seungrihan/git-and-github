@@ -1,8 +1,8 @@
-## :octocat: 1. Git 사용법  
+## :octocat: _1. Git 사용법_  
 
 </br>
 
-> ### 1.1) git 명령어 사용법 가이드
+> ### _1.1) git 명령어 사용법 가이드_
 
 
 </br>
@@ -12,7 +12,7 @@ $ git # git 기본적인 사용 방법 가이드
 ````   
 </br>
 
-> ### 1.2) .git 저장소 ( Working Directory ) 생성 및 복제   
+> ### _1.2) .git 저장소 ( Working Directory ) 생성 및 복제_   
 
 </br>
 
@@ -22,7 +22,7 @@ $ git clone # 원격 저장소(GitHub)의 폴더 및 파일을 Local에 .git 저
 ````   
 </br>
 
-> ### 1.3) 사용자 계정을 등록     
+> ### _1.3) 사용자 계정을 등록_     
 
 </br>
    
@@ -32,7 +32,7 @@ $ git config -g user.email "userEmail" # 사용자 Email을 생성한다.
 ````   
 </br>
 
-> ### 1.4) Working Directory에서 Stage Area로 파일을 등록   
+> ### _1.4) Working Directory에서 Stage Area로 파일을 등록_   
 
 </br>
    
@@ -41,7 +41,7 @@ $ git add "fileName" # stage area에 파일을 등록한다.
 ````           
 </br>
 
-> ### 1.5) Stage Area에서 Repository로 파일을 등록   
+> ### _1.5) Stage Area에서 Repository로 파일을 등록_   
 
 </br>
    
@@ -50,7 +50,7 @@ $ git commit -m "logMessage" # stage area에 변화 된 파일을 commit 한다.
 ````
 </br>
 
-> ### 1.6) Log 정보 확인
+> ### _1.6) Log 정보 확인_
 
 </br>
    
@@ -59,7 +59,7 @@ $ git log # .git의 파일 변화에 관한 Log 정보들을 알 수 있다.
 ````   
 </br>
 
-> ### 1.7) Branch 목록을 확인
+> ### _1.7) Branch 목록을 확인_
 
 </br>
    
@@ -68,7 +68,7 @@ $ git branch # Branch 목록을 확인한다.
 ````   
 </br>
 
-> ### 1.8) Branch 생성
+> ### _1.8) Branch 생성_
 
 </br>
    
@@ -77,7 +77,7 @@ $ git branch "branchName" # Branch 목록을 확인한다.
 ````   
 </br>
 
-> ### 1.9) Branch 이름 변경
+> ### _1.9) Branch 이름 변경_
 
 </br>
    
@@ -86,7 +86,7 @@ $ git branch -m "oldBranchName" "newBranchName" # Branch 이름을 변경한다.
 ````   
 </br>
 
-> ### 1.10) Branch 삭제
+> ### _1.10) Branch 삭제_
 
 </br>
    
