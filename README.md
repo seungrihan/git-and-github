@@ -1,8 +1,8 @@
 ## 📝 Content
-#### **[1. _Git_ 사용법](#Git-사용법)**   
-&nbsp;&nbsp;[1-1) _Git_ 명령어](#Git-명령어)      
-#### **[2. _GitHub_ 사용법](#GitHub-사용법)**      
-&nbsp;&nbsp;[2-1) _GitHub_ 명령어](#GitHub-명령어)   
+#### **[1. Git 사용법](#Git-사용법)**   
+&nbsp;&nbsp;[1-1) Git 명령어](#Git-명령어)      
+#### **[2. GitHub 사용법](#GitHub-사용법)**      
+&nbsp;&nbsp;[2-1) GitHub_명령어](#GitHub-명령어)   
   
   ## Git 사용법
   - ### Git 명령어   
@@ -79,6 +79,32 @@
                 
        <code>$git branch -d "branchName"</code> : master의 파일을 branch로 병합.      
           
+     - **_Local_ _.git_ 저장소를 복원 하고 싶다.**   
+                
+       <code>$git reset [--option] "logCommitHash"</code> : option에 정의에 따라 복원 할 수 있다.
+          
+     - **< OPTION 범위 >**  
+        |   status   | working dir | staging area | repository |     
+        | :--------: | :---------: | :--------:  | :--------: |   
+        | **option** | ----------- | ----------- |    soft    |   
+        | **option** | ----------- |    mixed    |    mixed   |   
+        | **option** |     hard    |    hard     |    hard    |   
+          
+        ----------------------------   
+        
+        > ### git 명령어 사용법
+           
+        ````shell
+        $ git # git 기본적인 사용 방법 가이드
+        ````
+        
+        > ### .git 저장소 생성 및 복제 명령어
+           
+        ````shell
+        $ git init # Local 디렉토리에 .git 파일을 생성한다.
+        $ git clone # 원격 저장소(GitHub)의 폴더 및 파일을 Local에 .git 저장소를 생성한다.
+        ````
+  
   ## GitHub 사용법
   - ### GitHub 명령어
  
