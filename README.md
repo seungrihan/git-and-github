@@ -41,7 +41,7 @@ $ git add "fileName" # stage area에 파일을 등록한다.
 ````           
 </br>
 
-> ### _1.5) Stage Area에서 Repository로 파일을 등록_   
+> ### _1.5) Staging Area에서 Repository로 파일을 등록_   
 
 </br>
    
