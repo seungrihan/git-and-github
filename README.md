@@ -1,4 +1,4 @@
-## 1. Git 사용법  
+## :octocat: 1. Git 사용법  
 
 </br>
 
