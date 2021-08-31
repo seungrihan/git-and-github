@@ -95,7 +95,7 @@ $ git branch -d "BranchName" # Branch를 삭제한다.
 ````    
 </br>
 
-> ### 1.11) Branch 전환
+> ### _1.11) Branch 전환_
 
 </br>
    
@@ -104,7 +104,7 @@ $ git checkout "BranchName" # 생성 된 Branch들을 전환한다.
 ````           
 </br>
 
-> ### 1.12) Branch 목록 변화 상태 확인
+> ### _1.12) Branch 목록 변화 상태 확인_
 
 </br>
    
@@ -114,7 +114,7 @@ $ git log --branches --decorate --graph --oneline # Branch의 저장 상태를 �
 ```` 
 </br>
 
-> ### 1.13) Branch 목록 비교 변화 확인
+> ### _1.13) Branch 목록 비교 변화 확인_
 
 </br>
    
@@ -125,7 +125,7 @@ $ git diff "branchName".."master" # Branch와 Master 사이의 변화를 확인�
 ```` 
 </br>
 
-> ### 1.14) 파일 병합 ( Branch -> Master )
+> ### _1.14) 파일 병합 ( Branch -> Master )_
 
 </br>
    
@@ -135,7 +135,7 @@ $ git merge master # Branch의 파일을 Master로 병합한다.
 ````   
 </br>
 
-> ### 1.15) 파일 병합 ( Master -> Branch )
+> ### _1.15) 파일 병합 ( Master -> Branch )_
 
 </br>
    
@@ -145,15 +145,15 @@ $ git merge "BranchName" # Master의 파일을 Branch로 병합한다.
 ````
 </br>
 
-> ### 1.16) 파일 복원
+> ### _1.16) 파일 복원_
 
 </br>
    
 ````bash
 $ git reset [--option] "logCommitHash 앞 6자리" 
 ````
-- _"--option"_ 에 따라서 파일을 복원하는 범위가 달라진다. 아래 <표>를 참고하여 _option_ 을 넣는다.
-- < 표 > : _Option_ 상태    
+* _"--option"_ 에 따라서 파일을 복원하는 범위가 달라진다. 아래 <표>를 참고하여 _option_ 을 넣는다.
+* < 표 > : _Option_ 상태    
   |   Status   | Working dir | Staging area |  Repository  |     
   | :--------: | :---------: | :--------:  |  :---------:  |   
   | **Option** | ----------- | ----------- |    _soft_     |   
