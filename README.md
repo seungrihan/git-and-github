@@ -154,10 +154,10 @@ $ git reset [--option] "logCommitHash 앞 6자리"
 ````
 * _"--option"_ 에 따라서 파일을 복원하는 범위가 달라진다. 아래 <표>를 참고하여 _option_ 을 넣는다.
 * < 표 > : _Option_ 상태    
-  |   Status   | Working dir | Staging area |  Repository  |     
+  |   _Status_   | _Working dir_ | _Staging area_ |  _Repository_  |     
   | :--------: | :---------: | :--------:  |  :---------:  |   
-  | **Option** | ----------- | ----------- |    _soft_     |   
-  | **Option** | ----------- |    _mixed_    |    _mixed_    |   
-  | **Option** |   _hard_     |    _hard_     |    _hard_     |
+  | **_Option_** | ----------- | ----------- |    _soft_     |   
+  | **_Option_** | ----------- |    _mixed_    |    _mixed_    |   
+  | **_Option_** |   _hard_     |    _hard_     |    _hard_     |
   
 </br>
